@@ -29,6 +29,7 @@
             ];
 			
             $this->load->view('Perhitungan/perhitungan', $data);
+            
         }
 		
 		public function hasil()

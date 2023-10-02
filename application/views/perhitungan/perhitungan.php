@@ -182,6 +182,7 @@
 							$hasil_normalisasi= @(round(($data_pencocokan['nilai']-$min_max['min'])/($min_max['max']-$min_max['min']),4));
 							$bobot = $key->bobot;
 							$nilai_total += $bobot*$hasil_normalisasi;
+							// echo $data_pencocokan['nilai']-$min_max['min']/$min_max['max']-$min_max['min'];
 							
 							echo "(".$bobot."x".$hasil_normalisasi.") ";
 						endforeach;
